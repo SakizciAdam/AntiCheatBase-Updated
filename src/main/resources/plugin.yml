@@ -1,0 +1,20 @@
+name: AntiCheatBase
+version: ${project.version}
+main: tk.sakizciadam.anticheatbase.AntiCheatBase
+api-version: 1.16
+depend: [ProtocolLib]
+authors: [SakizciAdam]
+description: Just a anticheat base I made in 1 hour
+website: https://www.sakizciadam.tk
+permissions:
+  anticheat.alert:
+    default: op
+    description: Get alerted when someone gets flagged
+
+  anticheat.bypass:
+    default: op
+    description: Allows you to bypass Anti Cheat Base
+
+  anticheat.admin:
+    description: Allows you to use Anti Cheat Base commands
+    default: op

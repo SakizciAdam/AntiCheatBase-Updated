@@ -1,0 +1,8 @@
+Fly:
+  MaxVL: 100
+
+
+FlagMessage: '&c%player%&7 has been detected using &c%cheat% &7hacks &cx%flag%'
+Action: 'kick %player% Unfair Advantage'
+ActionMessage: '&c%player%&7 has been kicked for using &c%cheat% &7hacks'
+Debug: true
